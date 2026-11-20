@@ -1,0 +1,14 @@
+# Local environment (Streamlit demo on CPU, local smoke tests). Colab already provides these libraries.
+numpy
+pandas
+opencv-python-headless
+scikit-learn
+scipy
+matplotlib
+tqdm
+torch
+torchvision
+streamlit
+nbformat
+nbclient
+ipykernel

@@ -1,0 +1,44 @@
+# ---- Datasets (never commit: large, and Kaggle / IEEE DataPort terms forbid redistribution) ----
+train_images.zip
+train_images/
+train.csv
+test.csv
+aptos_raw/
+idrid_raw/
+*.zip
+*.tar
+*.tar.gz
+data/
+demo_images/
+demo_data/
+
+# ---- Model weights, checkpoints and run artefacts ----
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.npz
+*.npy
+runs/
+deploy/
+results/
+splits/
+
+# ---- Personal / local files ----
+photos/
+.venv/
+venv/
+env/
+.env
+kaggle.json
+*.secret
+
+# ---- Python / Jupyter / OS clutter ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
